@@ -1,13 +1,13 @@
 module.exports =
-class SpellCheckUkAtomView
+class SpellCheckUkView
   constructor: (serializedState) ->
     # Create root element
     @element = document.createElement('div')
-    @element.classList.add('spell-check-uk--atom')
+    @element.classList.add('spell-check-uk')
 
     # Create message element
     message = document.createElement('div')
-    message.textContent = "The SpellCheckUkAtom package is Alive! It's ALIVE!"
+    message.textContent = "The SpellCheckUk package is Alive! It's ALIVE!"
     message.classList.add('message')
     @element.appendChild(message)
 
