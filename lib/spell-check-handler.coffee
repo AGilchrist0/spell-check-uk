@@ -1,4 +1,4 @@
-SpellChecker = require 'spellchecker'
+SpellChecker = require 'spellchecker-uk'
 
 module.exports = ({id, text}) ->
   SpellChecker.add("GitHub")
