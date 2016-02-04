@@ -2,19 +2,19 @@
 'context-menu':
   'atom-text-editor': [
     {
-      'label': 'Toggle spell-check-uk'
-      'command': 'spell-check-uk:toggle'
+      'label': 'Toggle spell-check-uk--atom'
+      'command': 'spell-check-uk--atom:toggle'
     }
   ]
 'menu': [
   {
     'label': 'Packages'
     'submenu': [
-      'label': 'spell-check-uk'
+      'label': 'spell-check-uk--atom'
       'submenu': [
         {
           'label': 'Toggle'
-          'command': 'spell-check-uk:toggle'
+          'command': 'spell-check-uk--atom:toggle'
         }
       ]
     ]
