@@ -26,4 +26,4 @@ for the _Spell Check_ package. Here are some examples: `source.coffee`,
 
 ## Changing the dictionary
 
-Currently, only the English (US) dictionary is supported. Follow [this issue](https://github.com/atom/spell-check/issues/11) for updates.
+Currently, only the English (UK) dictionary is supported. Follow [this issue](https://github.com/atom/spell-check/issues/11) for updates.
